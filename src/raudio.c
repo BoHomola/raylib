@@ -1132,7 +1132,7 @@ bool ExportWaveAsCode(Wave wave, const char *fileName)
 }
 
 // Play a sound
-void PlaySound(Sound sound)
+void rl_PlaySound(Sound sound)
 {
     PlayAudioBuffer(sound.stream.buffer);
 }
